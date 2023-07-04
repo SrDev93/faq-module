@@ -12,6 +12,6 @@
 */
 use Illuminate\Support\Facades\Route;
 
-Route::prefix('')->group(function() {
+Route::prefix('panel')->group(function() {
     Route::resource('faq', 'FaqController');
 });
